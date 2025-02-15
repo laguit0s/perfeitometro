@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfeitômetro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/heart-icon.png" type="image/x-png">
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Perfeitômetro</h1>
+        <p>Seja bem vinda ao perfeitômetro! Aqui você será capaz de descobrir com apenas algumas informações se alguém é perfeito(a) ou não.</p>
+
+        <form action="#" class="form-group">
+            <div class="form-conteiner">
+                <label>Digite o primeiro nome do seu alvo:</label>
+                <input type="text" maxlength="20" placeholder="Ex: Julhyana" id="nome">
+                <div>
+                    <button id="verificar-nome">Verificar Nome</button>
+                    <button id="curiosidade-nome">Curiosidade</button>
+                </div>
+            </div>
+
+            <div class="form-conteiner">
+                <label>Digite a data de nascimento do seu alvo:</label>
+                <input type="date" placeholder="Ex: Julhyana" id="data">
+                <div>
+                    <button id="verificar-data">Verificar Data</button>
+                    <button id="curiosidade-data">Curiosidade</button>
+                </div>
+            </div>
+            <button id="analisar-perfeicao">ANALISAR PERFEIÇÃO</button>
+        </form>
+    </div>
+
+    <div class="pop-up-background">
+        <div class="pop-up">
+            <span id="pop-up-texto"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
